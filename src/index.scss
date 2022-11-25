@@ -1,0 +1,7 @@
+@use "./utils/normalize.scss" as *;
+@use "App.scss" as *;
+
+body {
+   height: 100vh;
+   width: 100vw;
+}

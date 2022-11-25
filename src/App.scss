@@ -1,0 +1,42 @@
+@use "./components/Nav/Nav.scss" as *;
+@use "./components/ProjectsPage/ProjectsPage.scss" as *;
+@use "./components/TasksPage/TasksPage" as *;
+
+.app {
+
+
+   min-height: 100vh;
+
+   width: 100vw;
+
+
+}
+
+header {
+   background-color: brown;
+   height: 50px;
+   width: 100%;
+}
+
+footer {
+   position: absolute;
+   background-color: brown;
+   height: 50px;
+   width: 100%;
+   left: 0;
+   bottom: 0;
+}
+
+h1 {
+   margin: 0;
+}
+
+.container {
+   max-width: 1400px;
+   margin: 0 auto;
+   min-height: calc(100vh - 50px - 50px);
+   display: flex;
+   flex-direction: column;
+
+   background-color: antiquewhite;
+}
